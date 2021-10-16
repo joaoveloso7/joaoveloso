@@ -1,0 +1,45 @@
+.screen-loading{
+    width: 100%;
+    height: 100vh;
+    background-color: $background;
+
+    z-index: 1000;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    animation: screen-load 3.5s ease forwards;
+}
+
+.screen-loading .screen-bg-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    animation: bg-logo 2s ease forwards;
+}
+
+.screen-loading .screen-bg-bot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    animation: bg-logo 1s ease-in-out;
+}
+
+.screen-loading #letter{
+    animation: letter-logo 2.5s ease forwards;
+}
+
+.screen-loading #ball{
+    animation: ball-logo 2s ease forwards;
+}
+
+.screen-loading #text{  
+    animation: text-logo 2s ease forwards;
+}

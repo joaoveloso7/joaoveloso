@@ -1,0 +1,38 @@
+
+.container{
+    max-width: 1330px;
+    //padding: 24px 55px;
+    padding: 24px 56px;
+  
+    margin: 0 auto;
+}
+
+
+/*borders*/
+.b-lr{
+    border-left: 1px solid $border;
+    border-right: 1px solid $border;
+ 
+}
+
+.b-h{
+    border-bottom: 1px solid $border;
+}
+.b-t{
+    border-top: 1px solid $border;
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .b-lr{
+        margin: 0 16px;
+     
+    }
+    
+
+    .container{
+        padding: 24px 8px;
+    }
+    
+}

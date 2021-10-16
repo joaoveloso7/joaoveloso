@@ -1,0 +1,22 @@
+<svg width="1027" height="764" viewBox="0 0 1027 764" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="bg-load-top">
+<g id="red" filter="url(#filter0_f)">
+<circle cx="1217.07" cy="16.6046" r="347.5" transform="rotate(20.4068 1217.07 16.6046)" fill="#F53B00" fill-opacity="0.4"/>
+</g>
+<g id="pink" filter="url(#filter1_f)">
+<circle cx="746.859" cy="-273.141" r="347.5" transform="rotate(20.4068 746.859 -273.141)" fill="#F30092" fill-opacity="0.4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="470.21" y="-730.254" width="1493.72" height="1493.72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter1_f" x="0.00012207" y="-1020" width="1493.72" height="1493.72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur"/>
+</filter>
+</defs>
+</svg>

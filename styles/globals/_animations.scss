@@ -1,0 +1,144 @@
+/*Screen loading*/
+
+@keyframes screen-load{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes letter-logo{
+    0%,10%{
+        fill-opacity: 0;
+        stroke-dasharray: 0 100;
+        filter: blur(10px)
+    }
+    60%{
+        fill-opacity: 0;
+        stroke-dasharray: 100 0;
+    }
+    100%{
+        fill-opacity: 1;
+        stroke-dasharray: 100 0;
+
+
+    }
+}
+
+@keyframes ball-logo{
+    0%,10%{
+        fill-opacity: 0;
+        transform: translateY(-30px);
+    }
+    50%{
+        fill-opacity: 0;
+        transform: translateY(-15px);
+
+    }
+    100%{
+        fill-opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes text-logo{
+    0%,10%{
+        fill-opacity: 0;
+        transform: translateY(60px);
+    }
+    50%{
+        fill-opacity: 0;
+        transform: translateY(30px);
+
+    }
+    70%{
+        fill-opacity: 0;
+        transform: translateY(15px);
+
+    }
+    100%{
+        fill-opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes bg-logo{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*menu lines*/
+@keyframes first-line{
+    0%{
+     transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(1px);
+    }
+    100%{
+        transform: translateX(0px);
+    }                
+}
+
+@keyframes second-line{
+    0%{
+        transform: translateX(0px);
+       }
+       50%{
+           transform: translateX(-1px);
+       }
+       100%{
+           transform: translateX(0px);
+       }       
+}
+
+@keyframes third-line{
+    0%{
+        transform: translateX(0px);
+       }
+       50%{
+           transform: translateX(1px);
+       }
+       100%{
+           transform: translateX(0px);
+    }       
+}
+
+/*hero avaliable*/
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(359deg);
+    }
+}

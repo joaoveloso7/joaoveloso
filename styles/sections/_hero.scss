@@ -1,0 +1,177 @@
+.hero-content{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+
+    margin-top: 200px;
+    position: relative;
+
+    .hero-left{
+        .hero-name{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+
+            margin-bottom: 16px;
+
+            svg{
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .hero-right{
+
+            .hero-location{
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                margin-top: 8px;
+
+                svg{
+                    margin-right: 8px;
+                }
+            }   
+    }
+
+}
+
+.bg-hero{
+    position: absolute;
+    top: 0%;
+    left: -100px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .bg{
+        width: 100%;
+        animation: pulse 2s infinite alternate;
+        opacity: .7;
+        transition: .5s ease;
+    }
+}
+
+@keyframes pulse{
+    0%,100%{
+        transform: scale(1) translateY(0px);
+    }
+    50%{
+        transform: scale(0.97) translateY(10px);
+    }
+}
+
+.hero-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 106px;
+
+    .social-icons{
+        display: flex;
+        align-items: baseline;
+
+        .icon-social-networks{
+            padding: 8px;
+            transition: all .5s ease;
+            &:hover{
+                transform: translateY(-4px);
+                svg path{
+                    fill: rgb(255, 144, 40);
+                    transition: all .5s ease-in-out;
+                }    
+            }
+            
+          }
+
+    }
+
+    .hero-avaliable{
+        position: relative;
+        svg{
+            animation: rotate 12s infinite linear;
+        }
+
+        #arrow-down{
+            position: absolute;
+            transform: translate(-90px,52px);
+
+        }
+    }
+}
+
+
+
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    .hero-content{
+        flex-direction: column;
+        margin-top: 100px;
+
+        justify-content: left !important;
+
+    }
+
+    .hero-left{
+        width: 100%;
+
+        margin-bottom: 64px;
+
+        .hero-name{
+            h4{
+                font-size: 1.5rem;
+            }
+
+        }
+
+        .hero-espec{
+            
+            h1{
+                font-size: 2.5rem;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    .hero-right{
+        width: 100%;
+
+    }   
+
+    .hero-social{
+        flex-direction: column;
+        justify-content: center;  
+        
+        .social-icons{
+            margin-bottom: 40px;
+        }
+    }
+
+    .bg-hero{
+        left: 0%;
+        transform: translateY(110px);
+    }
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {  }
