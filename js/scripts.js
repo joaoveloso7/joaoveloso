@@ -27,4 +27,3 @@ navItems.forEach(item => {
         menuLine1.classList.toggle('active-menu');
     })
 })
-
